@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Goodfly - Flight Booking Website</title>
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!--====== Slick Slider css ======-->
+    <link rel="stylesheet" href="dist/css/slick.css">
+
+    <!--====== Flag Icon css ======-->
+    <link rel="stylesheet" href="dist/css/flag-icon.min.css">
+
+    <!--====== Stylesheet css ======-->
+    <link rel="stylesheet" href="dist/css/style.css">
+
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="dist/css/media.css">
+</head>
+
+<body>
+    <!-- ===== Preloader Start ===== -->
+    <div class="proloader">
+        <div class="loader_34">
+            <!-- Preloader Elements -->
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <!-- Preloader Container Left Begin -->
+                        <div class="ytp-spinner-left">
+                            <!-- Preloader Body Left -->
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <!-- Preloader Container Left End -->
+
+                        <!-- Preloader Container Right Begin -->
+                        <div class="ytp-spinner-right">
+                            <!-- Preloader Body Right -->
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <!-- Preloader Container Right End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== Preloader End ===== -->
+
+
+    <!-- ===== Header bar area Start ===== -->
+    <div class="header-bar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-6 col-sm-6 order-md-1 col-md-3 d-flex align-items-center">
+                    <div class="logo-area">
+                        <a href="#"><img src="images/logo.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-2 order-md-3">
+                    <div class="hamburger-menu ml-md-auto">
+                        <span class="line-top"></span>
+                        <span class="line-center"></span>
+                        <span class="line-bottom"></span>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 order-md-2 text-right">
+                    <div class="top-nav">
+                        <ul>
+                            <li><a href="#"><img src="images/flag.png" alt=""> Fa</a></li>
+                            <li><a href="#"><i class="fas fa-user"></i> Se conmector</a></li>
+                            <li><a href="#"><i class="fas fa-phone"></i> Nous contactor</a></li>
+                            <li><a href="#"><i class="fas fa-comment-alt"></i> Votre avis</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="#">Vols</a></li>
+                            <li><a href="#">Hotels/Hebergements</a></li>
+                            <li><a href="#">Location de vehicules</a></li>
+                            <li><a href="#">Bateaus</a></li>
+                            <li><a href="#">Trains</a></li>
+                            <li><a href="#">Hajj/Omra</a></li>
+                            <li><a href="#">Voyages</a></li>
+                            <li><a href="#">Transport/Logistique</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Store</a></li>
+                            <li><a href="#">Promo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ===== Header bar area End ===== -->
+
+    <!-- ===== Ofcanvas-Menu Start ===== -->
+    <div class="ofcavas-menu">
+        <a href="#" class="of-can-logo">
+            <img src="images/logo-white.png" alt="Logo">
+        </a>
+        <ul>
+            <li><a href="#">Vols</a></li>
+            <li><a href="#">Hotels/Hebergements</a></li>
+            <li><a href="#">Location de vehicules</a></li>
+            <li><a href="#">Bateaus</a></li>
+            <li><a href="#">Trains</a></li>
+            <li><a href="#">Hajj/Omra</a></li>
+            <li><a href="#">Voyages</a></li>
+            <li><a href="#">Transport/Logistique</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Promo</a></li>
+        </ul>
+    </div>
+    <!-- ===== Ofcanvas-Menu End ===== -->
+
+    <!-- ===== Banner HTML Start ===== -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a href="#" class="left-ban-item banner-mob">
+                                        <img src="images/banner-1.png" alt="Banner Image" class="img-fluid w-100">
+                                        <div class="text-1">
+                                            <h3>dès 1790€</h3>
+                                            <p>au départ de Paris</p>
+                                        </div>
+                                        <div class="text-2">
+                                            <h3>Les Maldives</h3>
+                                            <p>a prix cassé !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <a href="#" class="left-ban-item mb-lg-0">
+                                        <img src="images/banner-2.png" alt="Banner Image" class="img-fluid w-100">
+                                        <div class="text-small-1">
+                                            <span>découvrez</span>
+                                            <h3>la Malaisie</h3>
+                                            <p>en formule tout compris</p>
+                                        </div>
+                                        <div class="text-small-2">
+                                            <p>dès <span>1390€</span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <a href="#" class="left-ban-item mb-lg-0">
+                                        <img src="images/banner-3.png" alt="Banner Image" class="img-fluid w-100">
+                                        <div class="text-small-3">
+                                            <p>Faites le tour de nos</p>
+                                            <h3>excursions !</h3>
+                                        </div>
+                                        <div class="text-small-4">
+                                            <p>cliquez ici <i class="fas fa-chevron-right"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-ban-item">
+                                <ul class="nav nav-pills main-nav-pills justify-content-center" id="pills-tab"
+                                    role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                            href="#pills-home" role="tab" aria-controls="pills-home"
+                                            aria-selected="true">Vols <i class="fas fa-plane-departure"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                            href="#pills-profile" role="tab" aria-controls="pills-profile"
+                                            aria-selected="false">Hôtels <i class="fas fa-hotel"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                            href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                            aria-selected="false">Véhicules <i class="fas fa-car"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-bate-tab" data-toggle="pill" href="#pills-bate"
+                                            role="tab" aria-controls="pills-bate" aria-selected="false">Bateaux <i
+                                                class="fas fa-concierge-bell"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-train-tab" data-toggle="pill" href="#pills-train"
+                                            role="tab" aria-controls="pills-train" aria-selected="false">Trains <i
+                                                class="fas fa-subway"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content main-tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                        aria-labelledby="pills-home-tab">
+                                        <div class="inner-tab">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="pills-retour-tab" data-toggle="pill"
+                                                        href="#pills-retour" role="tab" aria-controls="pills-retour"
+                                                        aria-selected="true">Aller-retour</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="pills-simple-tab" data-toggle="pill"
+                                                        href="#pills-simple" role="tab" aria-controls="pills-simple"
+                                                        aria-selected="false">Aller simple</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-retour" role="tabpanel"
+                                                    aria-labelledby="pills-retour-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Départ</label>
+                                                                    <input type="text" placeholder="On part d’où ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re"><i
+                                                                            class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-6 col-sm-6 pr-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Aller</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-sm-6 pl-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Retour</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text" placeholder="On va où ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Passagers</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label class="check-label">Vols directs uniquement
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-simple" role="tabpanel"
+                                                    aria-labelledby="pills-simple-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Départ</label>
+                                                                    <input type="text" placeholder="On part d’où ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re"><i
+                                                                            class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <div class="form-group">
+                                                                            <label>Aller</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text" placeholder="On va où ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Passagers</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label class="check-label">Vols directs uniquement
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                        aria-labelledby="pills-profile-tab">
+                                        <div class="inner-tab">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="pills-hotel-tab" data-toggle="pill"
+                                                        href="#pills-hotel" role="tab" aria-controls="pills-hotel"
+                                                        aria-selected="true">Hôtel</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="pills-heber-tab" data-toggle="pill"
+                                                        href="#pills-heber" role="tab" aria-controls="pills-heber"
+                                                        aria-selected="false">Hébergement</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-hotel" role="tabpanel"
+                                                    aria-labelledby="pills-hotel-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text"
+                                                                        placeholder="Où voulez-vous séjourner ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re">
+                                                                        <i class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Voyageurs</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">2 adultes</option>
+                                                                        <option value="">3 adultes</option>
+                                                                        <option value="">4 adultes</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Durée</label>
+                                                                    <input type="text" placeholder="1 nuit"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Pension</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">Petit-déjeûner</option>
+                                                                        <option value="">Petit-déjeûner</option>
+                                                                        <option value="">Petit-déjeûner</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-heber" role="tabpanel"
+                                                    aria-labelledby="pills-heber-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text"
+                                                                        placeholder="Où voulez-vous séjourner ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re"><i
+                                                                            class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Voyageurs</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">2 adultes</option>
+                                                                        <option value="">3 adultes</option>
+                                                                        <option value="">4 adultes</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Durée</label>
+                                                                    <input type="text" placeholder="1 nuit"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Pension</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">Petit-déjeûner</option>
+                                                                        <option value="">Petit-déjeûner</option>
+                                                                        <option value="">Petit-déjeûner</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                        aria-labelledby="pills-contact-tab">
+                                        <div class="inner-tab">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="pills-vehicule-tab"
+                                                        data-toggle="pill" href="#pills-vehicule" role="tab"
+                                                        aria-controls="pills-vehicule" aria-selected="true">Véhicule</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-vehicule"
+                                                    role="tabpanel" aria-labelledby="pills-vehicule-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Lieu de prise en charge</label>
+                                                                    <input type="text" placeholder="Ville, aéroport ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-7 pr-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Date de prise</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-5 pl-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Heure</label>
+                                                                            <input type="time" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Lieu de restitution</label>
+                                                                    <input type="text" placeholder="Ville, aéroport ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-7 pr-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Retour du véhicule</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-5 pl-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Heure</label>
+                                                                            <input type="time" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Âge du conducteur</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">25 ans</option>
+                                                                        <option value="">26 ans</option>
+                                                                        <option value="">27 ans</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-bate" role="tabpanel"
+                                        aria-labelledby="pills-bate-tab">
+                                        <div class="inner-tab">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="pills-aller-bate-tab"
+                                                        data-toggle="pill" href="#pills-aller-bate" role="tab"
+                                                        aria-controls="pills-aller-bate"
+                                                        aria-selected="true">Aller-retour</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="pills-bate-simple-tab" data-toggle="pill"
+                                                        href="#pills-bate-simple" role="tab"
+                                                        aria-controls="pills-bate-simple" aria-selected="false">Aller
+                                                        simple</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-aller-bate"
+                                                    role="tabpanel" aria-labelledby="pills-aller-bate-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Départ</label>
+                                                                    <input type="text" placeholder="On part d’où ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re"><i
+                                                                            class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-6 pr-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Aller</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 pl-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Retour</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text" placeholder="On va où ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Passagers</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Véhicule</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">Voiture</option>
+                                                                        <option value="">Voiture</option>
+                                                                        <option value="">Voiture</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-bate-simple" role="tabpanel"
+                                                    aria-labelledby="pills-bate-simple-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Départ</label>
+                                                                    <input type="text" placeholder="On part d’où ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re"><i
+                                                                            class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <div class="form-group">
+                                                                            <label>Aller</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text" placeholder="On va où ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Passagers</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Véhicule</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">Voiture</option>
+                                                                        <option value="">Voiture</option>
+                                                                        <option value="">Voiture</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-train" role="tabpanel"
+                                        aria-labelledby="pills-train-tab">
+                                        <div class="inner-tab">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="pills-train-retour-tab"
+                                                        data-toggle="pill" href="#pills-train-retour" role="tab"
+                                                        aria-controls="pills-train-retour"
+                                                        aria-selected="true">Aller-retour</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="pills-train-simple-tab" data-toggle="pill"
+                                                        href="#pills-train-simple" role="tab"
+                                                        aria-controls="pills-train-simple" aria-selected="false">Aller
+                                                        simple</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-train-retour"
+                                                    role="tabpanel" aria-labelledby="pills-train-retour-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Départ</label>
+                                                                    <input type="text" placeholder="On part d’où ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re"><i
+                                                                            class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-6 col-sm-6 pr-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Aller</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-sm-6 pl-lg-1">
+                                                                        <div class="form-group">
+                                                                            <label>Retour</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text" placeholder="On va où ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Passagers</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label class="check-label">Trajets directs
+                                                                        uniquement
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-train-simple" role="tabpanel"
+                                                    aria-labelledby="pills-train-simple-tab">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-sm-6 pr-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Départ</label>
+                                                                    <input type="text" placeholder="On part d’où ?"
+                                                                        class="form-control">
+                                                                    <a href="#" class="re"><i
+                                                                            class="fas fa-exchange-alt"></i></a>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <div class="form-group">
+                                                                            <label>Aller</label>
+                                                                            <input type="date" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 pl-lg-4">
+                                                                <div class="form-group">
+                                                                    <label>Destination</label>
+                                                                    <input type="text" placeholder="On va où ?"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Passagers</label>
+                                                                    <select class="form-control">
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                        <option value="">1 adulte, économique</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label class="check-label">Trajets directs
+                                                                        uniquement
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                                <button type="submit">Lancer la recherche</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-text">
+                        <p>Profitez des meilleurs offres de vols, bateaux, trains, de locations de véhicules et
+                            d’hébergement en vous inscrivant à la <a href="#">newsletters GOODFLY !</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Banner HTML End ===== -->
+
+    <!-- ===== Place HTML Start ===== -->
+    <section id="place">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <div class="section-head text-center">
+                        <h2>Explorez nos derniers voyages organisés...</h2>
+                    </div>
+                    <div class="place-slide-main">
+                        <i class="fas fa-chevron-left left"></i>
+                        <i class="fas fa-chevron-right right"></i>
+                        <div class="row place-slide">
+                            <div class="col-lg-4">
+                                <div class="place-item">
+                                    <a href="#" class="place-img w-100">
+                                        <img src="images/place-1.png" alt="Image" class="img-fluid w-100">
+                                        <span>Indonésie</span>
+                                    </a>
+                                    <div class="place-text">
+                                        <div class="offer">
+                                            <a href="#">voir les offres <i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                        <p>L’indonésie en RoadTrip !
+                                            GOODFLY vous à déniché les meilleurs endroits pour séjourner dans ce pays
+                                            aux
+                                            multiples facettes.
+                                            Visites de plusieurs îles dont les moins fréquentées...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="place-item">
+                                    <a href="#" class="place-img w-100">
+                                        <img src="images/place-2.jpg" alt="Image" class="img-fluid w-100">
+                                        <span>Namibie</span>
+                                    </a>
+                                    <div class="place-text">
+                                        <div class="offer">
+                                            <a href="#">voir les offres <i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                        <p>Découvrez la faune sauvage namibienne.
+                                            Visite du grand désert, safari à la rencontre des animaux qui peuplent ces
+                                            grands espaces : lions, girafes, éléphants. Soyez au plus près des plus
+                                            cachés...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="place-item">
+                                    <a href="#" class="place-img w-100">
+                                        <img src="images/place-3.png" alt="Image" class="img-fluid w-100">
+                                        <span>Madagascar</span>
+                                    </a>
+                                    <div class="place-text">
+                                        <div class="offer">
+                                            <a href="#">voir les offres <i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                        <p>Madagascar et ses paysages somptueux.
+                                            Le tour de l’île vous est préparé par notre équipe sur place : en minibus et
+                                            en train, partez à la découverte de la ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="place-item">
+                                    <a href="#" class="place-img w-100">
+                                        <img src="images/place-2.jpg" alt="Image" class="img-fluid w-100">
+                                        <span>Namibie</span>
+                                    </a>
+                                    <div class="place-text">
+                                        <div class="offer">
+                                            <a href="#">voir les offres <i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                        <p>L’indonésie en RoadTrip !
+                                            GOODFLY vous à déniché les meilleurs endroits pour séjourner dans ce pays
+                                            aux
+                                            multiples facettes.
+                                            Visites de plusieurs îles dont les moins fréquentées...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Place HTML End ===== -->
+
+    <!-- ===== Jumpbotron HTML Start ===== -->
+    <section id="jumpbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="#" class="jumpbotron-img w-100">
+                        <img src="images/jumpbotron-img.png" alt="Image" class="img-fluid w-100">
+                        <img src="images/jump-1.png" alt="Image" class="jump-1">
+                        <img src="images/jump-2.png" alt="Image" class="jump-2">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Jumpbotron HTML End ===== -->
+
+    <!-- ===== Jumpbotron HTML End ===== -->
+    <section id="all-package">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="left-package">
+                                <div class="section-head text-center">
+                                    <h2><i class="fas fa-bolt"></i> Ventes Flash <i class="fas fa-bolt"></i></h2>
+                                </div>
+                                <div class="left-package-block">
+                                    <div class="left-package-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="number">
+                                                    <span>1</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-5 px-0">
+                                                <div class="desc">
+                                                    <p>Malaisie <i class="fas fa-bolt"></i> <span>1sem</span></p>
+                                                    <h6>En pension complète</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="price">
+                                                    <a href="#"><i class="fas fa-chevron-right"></i> 990€</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="left-package-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="number">
+                                                    <span>2</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-5 px-0">
+                                                <div class="desc">
+                                                    <p>Marrakech <i class="fas fa-bolt"></i> <span>3 jours</span></p>
+                                                    <h6>Week-end Express</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="price">
+                                                    <a href="#"><i class="fas fa-chevron-right"></i> 355€</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="left-package-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="number">
+                                                    <span>3</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-5 px-0">
+                                                <div class="desc">
+                                                    <p>Dakar <i class="fas fa-bolt"></i> <span>2sem</span></p>
+                                                    <h6>Villa privée </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="price">
+                                                    <a href="#"><i class="fas fa-chevron-right"></i> 855€</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="left-package-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="number">
+                                                    <span>4</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-5 px-0">
+                                                <div class="desc">
+                                                    <p>Malaisie <i class="fas fa-bolt"></i> <span>1sem</span></p>
+                                                    <h6>En pension complète</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="price">
+                                                    <a href="#"><i class="fas fa-chevron-right"></i> 575€</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="left-package-item mb-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="number">
+                                                    <span>5</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-5 px-0">
+                                                <div class="desc">
+                                                    <p>Indonésie <i class="fas fa-bolt"></i> <span>2sem</span></p>
+                                                    <h6>RoadTrip </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="price">
+                                                    <a href="#"><i class="fas fa-chevron-right"></i> 469€</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-6">
+                            <div class="right-package">
+                                <div class="section-head text-center">
+                                    <h2>C’est le moment de réserver !</h2>
+                                </div>
+                                <div class="hajj w-100">
+                                    <img src="images/mosque.jpg" alt="Image" class="img-fluid w-100">
+                                    <img src="images/round-gf.png" alt="Image" class="round-gf">
+                                    <div class="overlay">
+                                        <h2>Hajj 2020</h2>
+                                        <p>Découvrez l’ensemble de nos offres pour le pèlerinage 2020.
+                                            L’équipe GOODFLY vous propose plusieurs formules qui conviendront à toutes
+                                            les bourses.
+                                            Les pèlerins sont pris en charge par un staff à la hauteur de vos attentes.
+                                            Explications et clarifications de chaques rites religieux. Visites des
+                                            savants et des lieux de cultes.
+                                            Départ possible de toute la France.</p>
+                                        <a href="#">voir les offres <i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Jumpbotron HTML End ===== -->
+
+    <!-- ===== Voyages HTML End ===== -->
+    <section id="voyages">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <div class="section-head text-center">
+                        <h2><img src="images/three.png" alt="Image">types de voyages à découvrir avec GOODFLY !</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="#" class="voyages-item w-100">
+                                <img src="images/voyages-1.png" alt="Images" class="img-fluid w-100">
+                                <span>Voyages organisés <br><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="#" class="voyages-item w-100">
+                                <img src="images/voyages-2.png" alt="Images" class="img-fluid w-100">
+                                <span>Voyages éthiques <br><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="#" class="voyages-item w-100">
+                                <img src="images/voyages-3.png" alt="Images" class="img-fluid w-100">
+                                <span>Voyages sur mesure <br><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Voyages HTML End ===== -->
+
+    <!-- ===== Contact HTML Start ===== -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="newsletter">
+                                <h3>Recevez les meilleurs offres <span>via la newsletter GOODFLY</span> <img
+                                        src="images/message.png" alt="Message"></h3>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-sm-8 pr-sm-1 pr-lg-1">
+                                            <input type="email" placeholder="Entrez ici votre adresse e-mail"
+                                                class="form-control">
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4 pl-sm-1 pl-lg-1">
+                                            <button type="submit">Envoyer</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="location">
+                                <div class="row">
+                                    <div class="col-lg-4 col-6 col-sm-4 pr-sm-1 pr-lg-1">
+                                        <div class="address text-center text-lg-left">
+                                            <h4>Nous localiser</h4>
+                                            <ul>
+                                                <li>GOODFLY Les Mureaux</li>
+                                                <li>60 rue Maurice Bellonte</li>
+                                                <li>78130 LES MUREAUX</li>
+                                                <li><a href="mailto:contact@goodfly.fr">contact@goodfly.fr</a></li>
+                                                <li><a href="tel:01 00 00 00 00">01 00 00 00 00</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6 col-sm-3 text-center">
+                                        <div class="map">
+                                            <img src="images/gf-popup.png" alt="Image">
+                                            <p>Localiser sur la map</p>
+                                            <img src="images/map.png" alt="Image" class="img-fluid w-100 map-img">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-12 col-sm-5 mt-3 mt-lg-0">
+                                        <img src="images/store.png" alt="Image" class="img-fluid w-100 store-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Contact HTML End ===== -->
+
+    <!-- ===== Partner HTML End ===== -->
+    <section id="partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="section-head text-center">
+                        <h2>Nos partenaires</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#"><img src="images/pepper.png" alt="Brand"></a></li>
+                        <li><a href="#"><img src="images/cheese.png" alt="Brand"></a></li>
+                        <li><a href="#"><img src="images/adidas.png" alt="Brand"></a></li>
+                        <li><a href="#"><img src="images/pizza.png" alt="Brand"></a></li>
+                        <li><a href="#"><img src="images/pepper.png" alt="Brand"></a></li>
+                        <li><a href="#"><img src="images/adidas.png" alt="Brand"></a></li>
+                        <li><a href="#"><img src="images/pizza.png" alt="Brand"></a></li>
+                        <li><a href="#"><img src="images/pepper.png" alt="Brand"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Partner HTML End ===== -->
+
+    <!-- ===== Footer HTML Start ===== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-item">
+                                <a href="index.html" class="footer-logo">
+                                    <img src="images/logo-white.png" alt="White Logo">
+                                </a>
+                                <h3>A Propos de nous</h3>
+                                <ul class="footer-link">
+                                    <li><a href="#">Qui sommes-nous ?</a></li>
+                                    <li><a href="#">Les valeurs de l’entreprise</a></li>
+                                    <li><a href="#">Notre catalogue</a></li>
+                                    <li><a href="#">Nos partenaires</a></li>
+                                    <li><a href="#">Notre agence</a></li>
+                                    <li><a href="#">Demande de partenariat</a></li>
+                                    <li><a href="#">Offres d’emploi</a></li>
+                                </ul>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-item">
+                                <h3>MENU</h3>
+                                <ul class="footer-link">
+                                    <li><a href="#">Vols</a></li>
+                                    <li><a href="#">Hôtels/Hébergements</a></li>
+                                    <li><a href="#">Location de véhicules</a></li>
+                                    <li><a href="#">Bateaux</a></li>
+                                    <li><a href="#">Trains</a></li>
+                                    <li><a href="#">Hajj/Omra</a></li>
+                                    <li><a href="#">Voyages</a></li>
+                                    <li><a href="#">Transport/Logistique</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Store</a></li>
+                                    <li><a href="#">Promo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-item">
+                                <h3>INFOS PRATIQUES</h3>
+                                <ul class="footer-link">
+                                    <li><a href="#">Plan de vol</a></li>
+                                    <li><a href="#">Politique de confidentialité</a></li>
+                                    <li><a href="#">Mentions légales</a></li>
+                                    <li><a href="#">Conditions générales de vente</a></li>
+                                    <li><a href="#">RÉSERVATIONS PAR TÉLÉPHONE</a></li>
+                                    <li><a href="#">Du Lundi au Samedi de 8H à 19H</a></li>
+                                </ul>
+                                <h3>PAIEMENT SÉCURISÉ</h3>
+                                <a href="#">
+                                    <img src="images/payment.png" alt="Payment">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-item">
+                                <h3>ACCÈS RAPIDE</h3>
+                                <ul class="footer-link">
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les meilleurs offres de</a>
+                                    </li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> voyages</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les vols les moins chers</a>
+                                    </li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les destinations les plus</a>
+                                    </li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> prisées</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les destinations
+                                            spectaculaires</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les offres Hajj 2020</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les offres Omra 2020</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les derniers avis des
+                                            voyageurs</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right"></i> Les prochaines offres en
+                                            études</a></li>
+                                </ul>
+                                <div class="fr-logo">
+                                    <img src="images/goodfly-fr.png" alt="FR Logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ===== Footer HTML End ===== -->
+
+    <!-- ===== Copyright HTML Start ===== -->
+    <section id="cpryt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto text-center">
+                    <p>2020 <a href="#">GOODFLY.fr</a> - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Copyright HTML End ===== -->
+
+    <!-- ===== jQuery Library File ===== -->
+    <script src="dist/js/jquery-1.12.4.min.js"></script>
+
+    <!-- ===== Bootstrap JavaScript File ===== -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <!-- ===== Slick Slider JavaScript File ===== -->
+    <script src="dist/js/slick.min.js"></script>
+
+    <!-- ===== Main JavaScript File ===== -->
+    <script src="dist/js/custom.js"></script>
+</body>
+
+</html>

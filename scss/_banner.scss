@@ -1,0 +1,305 @@
+// ==== Banner Css Start ====
+
+#banner {
+  margin-top: 30px;
+  .left-ban-item {
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    .text-1 {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      h3 {
+        font-family: olivier;
+        font-size: 30px;
+        color: $white-color;
+        line-height: 24px;
+      }
+      p {
+        font-family: aven-demibolditalic;
+        font-size: 15px;
+        color: $white-color;
+        line-height: 24px;
+      }
+    }
+    .text-2 {
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      h3 {
+        font-family: aven-demibolditalic;
+        font-size: 40px;
+        color: $white-color;
+        line-height: 30px;
+      }
+      p {
+        font-family: cunia;
+        font-size: 25px;
+        color: #f5f717;
+        line-height: 24px;
+      }
+    }
+    .text-small-1 {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      span {
+        font-family: olivier;
+        font-size: 25px;
+        color: #eca651;
+        line-height: 24px;
+      }
+      h3 {
+        font-family: aven-demibolditalic;
+        font-size: 30px;
+        color: $gray-color;
+        line-height: 24px;
+        padding-left: 15px;
+      }
+      p {
+        font-family: aven-demibolditalic;
+        font-size: 15px;
+        color: $gray-color;
+        text-align: right;
+        line-height: 24px;
+        padding-left: 30px;
+      }
+    }
+    .text-small-2 {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      p {
+        font-family: olivier;
+        font-size: 25px;
+        color: #fff;
+        line-height: 24px;
+        span {
+          font-size: 40px;
+        }
+      }
+    }
+    .text-small-3 {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      p {
+        font-family: aven-demibolditalic;
+        font-size: 15px;
+        color: $white-color;
+        line-height: 24px;
+      }
+      h3 {
+        font-family: olivier;
+        font-size: 30px;
+        color: #f5f717;
+        line-height: 24px;
+        text-align: right;
+        padding-left: 50px;
+      }
+    }
+    .text-small-4 {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      p {
+        font-family: aven-demibolditalic;
+        font-size: 15px;
+        color: $white-color;
+        line-height: 24px;
+      }
+    }
+  }
+  .right-ban-item {
+    background: $primari-color;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .main-nav-pills {
+      background: #e6e6e6;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      li {
+        .nav-link {
+          font-family: aven-demibolditalic;
+          font-size: 16px;
+          color: $primari-color;
+          border-left: 1px solid $primari-color;
+          border-radius: 0;
+          padding: 5px 17.7px;
+          i {
+            color: $gray-color;
+            font-size: 13px;
+            padding-left: 5px;
+          }
+        }
+        &:first-child {
+          a {
+            border-left: 0;
+            border-top-left-radius: 10px;
+          }
+        }
+        &:last-child {
+          a {
+            border-top-right-radius: 10px;
+          }
+        }
+      }
+    }
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+      color: #fff;
+      background-color: $primari-color;
+    }
+    .main-tab-content {
+      padding: 30px;
+      box-sizing: border-box;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      .inner-tab {
+        .nav-link {
+          padding: 0;
+          color: $white-color;
+          font-family: aven-demibolditalic;
+          font-size: 14px;
+          margin-right: 20px;
+          border-bottom: 1px solid transparent;
+          border-radius: 0;
+          @include transition(0.3s);
+          &:hover {
+            display: block;
+            border-bottom: 1px solid $gray-color;
+          }
+          &.active {
+            border-bottom: 1px solid $gray-color;
+          }
+        }
+      }
+      .tab-content {
+        form {
+          .form-group {
+            position: relative;
+            .re {
+              position: absolute;
+              right: -32px;
+              top: 38px;
+              color: #46b9f6;
+            }
+            label {
+              color: $white-color;
+              font-family: aven-demibolditalic;
+              font-size: 14px;
+            }
+            .form-control {
+              padding: 5px 10px;
+              color: $gray-color;
+              font-family: aven-demibolditalic;
+              font-size: 12px;
+              height: 30px;
+            }
+            .check-label {
+              display: block;
+              position: relative;
+              padding-left: 25px;
+              margin-top: 10px;
+              margin-bottom: 12px;
+              cursor: pointer;
+              font-size: 14px;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+
+            /* Hide the browser's default checkbox */
+            .check-label input {
+              position: absolute;
+              opacity: 0;
+              cursor: pointer;
+              height: 0;
+              width: 0;
+            }
+
+            /* Create a custom checkbox */
+            .checkmark {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              left: 0;
+              height: 15px;
+              width: 15px;
+              background-color: #eee;
+            }
+
+            /* On mouse-over, add a grey background color */
+            .check-label:hover input ~ .checkmark {
+              background-color: #ccc;
+            }
+
+            /* When the checkbox is checked, add a blue background */
+            .check-label input:checked ~ .checkmark {
+              background-color: $button-color;
+            }
+
+            /* Create the checkmark/indicator (hidden when not checked) */
+            .checkmark:after {
+              content: "";
+              position: absolute;
+              display: none;
+            }
+
+            /* Show the checkmark when checked */
+            .check-label input:checked ~ .checkmark:after {
+              display: block;
+            }
+
+            /* Style the checkmark/indicator */
+            .check-label .checkmark:after {
+              left: 6px;
+              top: 2px;
+              width: 5px;
+              height: 10px;
+              border: solid white;
+              border-width: 0 3px 3px 0;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+            }
+          }
+          button {
+            font-family: aven-demibolditalic;
+            font-size: 16px;
+            color: $white-color;
+            padding: 5px 35px;
+            border-radius: 5px;
+            background: $button-color;
+            border: 0;
+            margin-top: 10px;
+            @include transition(0.3s);
+            &:hover {
+              color: $button-color;
+              background: $white-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .banner-text {
+    padding-top: 15px;
+    p {
+      font-family: aven-demibolditalic;
+      font-size: 15px;
+      color: $gray-color2;
+      text-align: center;
+      a {
+        font-weight: bold;
+        text-decoration: underline;
+        color: $gray-color2;
+      }
+    }
+  }
+}
+// ==== Banner CSS End ====

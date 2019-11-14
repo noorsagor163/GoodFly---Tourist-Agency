@@ -1,0 +1,134 @@
+/* ===== Hamburger-menu START CSS ===== */
+.hamburger-menu {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  display: none;
+}
+.hamburger-menu span {
+  background: #00aeef;
+  width: 30px;
+  height: 3px;
+  display: block;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu:hover .line-top {
+  transform: translateY(-100%);
+}
+.hamburger-menu:hover .line-bottom {
+  transform: translateY(100%);
+}
+.hamburger-menu:hover .line-top.current,
+.hamburger-menu:hover .line-bottom.current {
+  transform: 0;
+}
+
+.hamburger-menu .line-top.current {
+  transform: translateY(200%) rotate(135deg);
+}
+.hamburger-menu .line-center.current {
+  opacity: 0;
+}
+.hamburger-menu .line-bottom.current {
+  transform: translateY(-325%) rotate(-135deg);
+}
+
+/* ===== Ofcanvas-menu ===== */
+.ofcavas-menu {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  z-index: 99;
+  top: 0;
+  display: none;
+  left: -300px;
+  transition: 0.3s;
+}
+.ofcavas-menu.current {
+  left: 0;
+}
+.ofcavas-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 70px;
+  padding-left: 0;
+}
+.ofcavas-menu ul li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+  display: block;
+}
+
+.header-bar-area {
+  padding: 20px 0;
+  .top-nav {
+    ul {
+      li {
+        display: inline-block;
+        a {
+          font-family: aven-demibold;
+          font-size: 14px;
+          color: $gray-color;
+          margin-left: 20px;
+          i {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+nav {
+  @include transition(0.3s);
+  .main-menu {
+    ul {
+      li {
+        display: inline-block;
+        a {
+          font-family: aven-demibold;
+          font-size: 16px;
+          color: $primari-color;
+          margin-right: 36px;
+          @include transition(0.3s);
+          &:hover {
+            color: $hover-color;
+          }
+        }
+        &:last-child a {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+/* ===== sticky START CSS ===== */
+nav.sticky {
+  position: fixed;
+  z-index: 999;
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  width: 100%;
+  top: 0;
+  padding: 15px 0;
+  background: $button-color;
+  -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  .main-menu {
+    ul {
+      li {
+        a {
+          color: $white-color;
+        }
+      }
+    }
+  }
+}

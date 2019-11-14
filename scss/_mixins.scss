@@ -1,0 +1,9 @@
+// ===== Mixins Start =====
+
+@mixin transition($s) {
+    transition: all linear $s;
+    -webkit-transition: all linear $s;
+    -moz-transition: all linear $s;
+    -ms-transition: all linear $s;
+    -o-transition: all linear $s;
+  }

@@ -1,0 +1,77 @@
+// ==== Place CSS Start ====
+
+#place {
+  padding: 60px 0;
+  .place-slide-main {
+    position: relative;
+    .left,
+    .right {
+      position: absolute;
+      font-size: 25px;
+      color: $gray-color2;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 9;
+      cursor: pointer;
+    }
+    .left {
+      left: -40px;
+    }
+    .right {
+      right: -40px;
+    }
+    .place-slide {
+      .place-item {
+        box-shadow: 0px 0px 10px 0px $gray-color;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        margin: 30px 0;
+        .place-img {
+          position: relative;
+          img {
+            border-top-right-radius: 10px;
+          }
+          span {
+            position: absolute;
+            font-family: cunia;
+            font-size: 30px;
+            bottom: 10px;
+            left: 10px;
+            line-height: 25px;
+            color: $white-color;
+            @include transition(0.3s);
+          }
+        }
+        .place-text {
+          padding: 20px;
+          box-sizing: border-box;
+          position: relative;
+          .offer {
+            position: absolute;
+            background: $white-color;
+            top: -20px;
+            right: 0;
+            padding: 3px 10px;
+            box-sizing: border-box;
+            a {
+              font-family: aven-demibolditalic;
+              font-size: 16px;
+              color: $primari-color;
+              i {
+                padding-left: 5px;
+              }
+            }
+          }
+          p {
+            font-family: aven-demibolditalic;
+            font-size: 15px;
+            color: $primari-color;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ==== Place CSS End ====

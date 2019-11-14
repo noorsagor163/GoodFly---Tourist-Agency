@@ -1,0 +1,31 @@
+// ==== Voyages CSS Start ====
+
+#voyages {
+  padding: 60px 0;
+  .section-head {
+    margin-bottom: 30px;
+    h2 {
+      img {
+        padding-right: 10px;
+      }
+    }
+  }
+  .voyages-item {
+    box-shadow: 0px 0px 10px 0px $gray-color;
+    position: relative;
+    border-top-right-radius: 10px;
+    text-align: center;
+    span {
+      font-family: cunia;
+      font-size: 24px;
+      color: $white-color;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-shadow: 0px 0px 2px rgba(174, 227, 248, 0.8);
+    }
+  }
+}
+
+// ==== Voyages CSS End ====
